@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="assets/v1_90.png">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="assets/v81_155.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Practice</title>
 </head>
 <body style="background-color: rgb(205, 160, 248); margin: 80px; border:2px dashed rgb(137, 16, 251); padding: 50px;">
+    <nav>
+        <ul class="list">
+            <li><a href="#" class="link">صفحه اصلی</a></li>
+            <li>درباره ما</li>
+            <li>دسته بندی ها</li>
+            <li>ارتباط با ما</li>
+        </ul>
+    </nav>
         <h1 style="text-align: center;">Lorem, ipsum dolor sit amet</h1>
         <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, praesentium.</h2>
         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sapiente.</h3>
@@ -55,26 +64,63 @@
         <address> deleniti praesentium facere necessitatibus sequi eius optio 
         voluptates fugiat libero! Eius ex officia eos asperiores ipsa s</address>
         oluta, amet <abbr>W3</abbr></p>
-        <img src="assets/v81_155.png" alt="عکس" title="عکس لپ تاپ" width="500px" height="300px"/>
+        <img id="img" src="assets/v81_155.png" alt="عکس" title="عکس لپ تاپ" width="500px" height="300px"/>
         <br>
         <cite>عکس لپ تاپ</cite>
-        <table>
-            <caption>جدول</caption>
-            <tr>
-                <th></th>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th></th>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th></th>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
+        <div class="part">
+            <table class="table">
+                <caption>جدول</caption>
+                <tr>
+                    <th colspan="2" class="cel">1</th>
+                    <th class="cel">2</th>
+                    <th class="cel">3</th>
+                </tr>
+                <tr>
+                    <td colspan="2" class="cel">4</td>
+                    <td class="cel">5</td>
+                    <td class="cel">6</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="cel">7</td>
+                    <td class="cel">8</td>
+                    <td colspan="2" class="cel">9</td>
+                </tr>
+                <tr>
+                    <td class="cel">10</td>
+                    <td class="cel">11</td>
+                    <td class="cel">12</td>
+                </tr>
+            </table>
+    
+            <iframe src="demo-frame.htm"></iframe>
+        </div>
+
+        <!-- semantic tags -->
+
+        <header>semantic tags</header>
+        <section>
+            <section class="sec1">
+                <section>
+                    <h1>title</h1>
+                    <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis omnis, perspiciatis, quidem illo impedit,
+                        reiciendis facere voluptate excepturi earum voluptates fugiat ullam quod beatae cum cumque aperiam fuga quisquam
+                        maiores eaque! Assumenda maxime delectus officiis voluptatem voluptatibus hic consequatur rerum facere voluptate. 
+                        Consequuntur recusandae odio, sit doloremque asperiores in aspernatur est exercitationem perspiciatis ut adipisci 
+                        iusto quis labore dolor possimus hic assumenda voluptatem. Recusandae asperiores tempore accusantium, maiores sit
+                        soluta debitis eius? Repellendus nisi placeat aspernatur nesciunt animi tempora fuga, reprehenderit quam rem! 
+                        Similique ratione, est alias sapiente optio labore aliquam impedit ullam accusantium sequi asperiores unde nemo totam magni.
+                    </article>
+                </section>
+                <aside>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ex nemo esse cum natus aliquam quo quos quod accusamus neque molestiae 
+                    magni quae voluptates explicabo at fugiat, rem nam, ad quaerat tenetur laudantium saepe dolore ratione. Vitae rem, natus dignissimos 
+                    reprehenderit cumque molestias pariatur delectus non omnis blanditiis temporibus necessitatibus.
+                </aside>
+            </section>
+        </section>
+        <footer>footer</footer>
+
     </body>
+    
+    
 </html>
